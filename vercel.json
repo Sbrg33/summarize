@@ -1,0 +1,5 @@
+{
+  "buildCommand": "pnpm docs:build",
+  "outputDirectory": "dist/docs-site",
+  "installCommand": "pnpm install"
+}
