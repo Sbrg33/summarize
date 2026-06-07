@@ -5,10 +5,12 @@
 ### Features
 
 - Add Antigravity CLI (`agy`) as a supported CLI provider. (#231, thanks @yetmike)
+- Chrome extension: add Browser slide runtime so YouTube slide summaries can run without the daemon, while keeping Daemon as an optional faster runtime.
 
 ### Fixes
 
 - Chrome extension: abort stale side-panel summary streams on tab changes so delayed output from a closed or replaced tab cannot render under the new page title.
+- Chrome extension: keep YouTube slide cards on the shared slide-summary path so local browser thumbnails receive the same summary text shape as CLI `--slides`.
 
 ## 0.16.3 - 2026-05-22
 
